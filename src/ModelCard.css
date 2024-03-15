@@ -1,0 +1,85 @@
+.model-card {
+    
+    color: #ffffff;
+    border-radius: 9px;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    border: none;
+    height:400px;
+    cursor: pointer;
+    border-radius: 20px;
+    display: none;
+}
+
+.model-card.active {
+    display: flex;
+    flex-direction: row;
+    
+}
+.model-card.active:hover{
+    background-color: #ffffff;
+    color: #2d2d2d;
+    transform: scale(1.1);
+    border: #2b3a3e;
+    border-radius: 20px;
+    transition: transform 0.3s ease; 
+        
+}
+
+.animation-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.model-name {
+    display:flexbox;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding-top: 20px;
+    margin-top: 38px;
+    margin-right: 60px;
+    padding: 10px;
+    text-align: center;
+    font-size: 34px;
+    font-weight: 900;
+}
+.content{
+    font-weight: 50;
+    font-size: 22px;
+    font-style: italic;
+}
+
+
+.carousel {
+    display: flex;
+        width: 80%;
+        transition: transform 0.5s ease;
+}
+
+.prev-button,
+.next-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #343a45;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 34px;
+    outline: none;
+}
+
+.prev-button {
+    left: 0px;
+}
+
+.next-button {
+    right: 0px;
+}
+

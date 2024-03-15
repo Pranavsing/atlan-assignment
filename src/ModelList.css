@@ -1,0 +1,80 @@
+.modyContainer {
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 70px;
+        width:80%;
+}
+
+.mod {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.carousel-container {
+    justify-content: center;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        position: relative;
+            overflow: hidden;
+}
+
+.carousel {
+    display: flex;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.carousel-item {
+    flex: 0 0 auto;
+    width: 100%;
+    padding: 12 8px;
+    box-sizing: border-box;
+}
+
+.model-card {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    margin-bottom: 50px;
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.model-description {
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+}
+
+.try {
+    margin-top: 10px;
+}
+
+.featured-card {
+    background-color: #4ac1f5;
+    color: #ffffff;
+    border-radius: 9px;
+    margin: 1px;
+    padding: 0.1px;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.featured-card:hover {
+    background-color: #ffffff;
+    color: #2d2d2d;
+    transform: scale(1.1);
+    border: #2b3a3e;
+}
+.topic{
+    padding-left: 32px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: x-large;
+}
