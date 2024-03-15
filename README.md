@@ -57,6 +57,5 @@ The AI Models web application is designed to provide users with access to a vari
 
 ## Screenshots
 
-![image](https://github.com/Pranavsing/text-to-image-ai/assets/98748115/4b23daaf-db2b-4788-9087-320c34739126)
+![ehuue](https://github.com/Pranavsing/atlan-assignment/assets/98748115/6773ff2b-beee-40a1-9181-58cee8f019ea)
 
-![image](https://github.com/Pranavsing/text-to-image-ai/assets/98748115/67c324d3-764c-4ab2-8701-bad4d425e77d)
